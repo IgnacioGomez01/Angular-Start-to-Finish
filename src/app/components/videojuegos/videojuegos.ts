@@ -12,9 +12,12 @@ export class Videojuegos {
   nuevoJuego: string = "";
   
   addJuego() {
+
     if(this.nuevoJuego && this.nuevoJuego.trim()){
+
       this.videojuegos.push(this.nuevoJuego.trim());
       this.nuevoJuego = "";
+      
     }
   }
 
