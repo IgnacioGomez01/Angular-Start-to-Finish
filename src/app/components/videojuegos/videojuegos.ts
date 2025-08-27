@@ -7,6 +7,7 @@ import { FormsModule } from '@angular/forms';
   templateUrl: './videojuegos.html',
   styleUrl: './videojuegos.css'
 })
+
 export class Videojuegos {
   videojuegos: string[] = ["Apostol 1", "Apostol 2", "Apostol 3"];
   nuevoJuego: string = "";
